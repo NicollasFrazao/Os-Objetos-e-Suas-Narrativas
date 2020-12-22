@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>AUDIODESCRIÇÃO - GUIA "OS OBJETOS E SUAS NARRATIVAS"</title>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+		<link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+		
+		<link rel="stylesheet" href="dist/css/style.css">
+        <link rel="icon" href="dist/img/logo.png">
+        
+        <style>
+            .info-box-text
+			{
+				font-size: 1.3em;
+				white-space: normal;
+			}
+
+            .info-box-content
+            {
+                margin-left: 20px;
+				padding-top: 13px;
+				height: 100%;
+            }
+
+            .info-box-icon
+            {
+                height: 100%;
+				width: 10px;
+				line-height: normal;
+				position: absolute;
+            }
+
+            .info-box
+            {
+				min-height: 50px;
+				margin-bottom: 0px;
+            }
+
+            .col-sm-12 h3
+            {
+                height: 50px;
+			}
+			
+			footer.main-footer
+			{
+				height: 50px;
+			}
+
+			footer.main-footer span
+			{
+				position: absolute;
+				padding: 15px;
+				width: 50%;
+				height: 100%;
+				font-weight: 700;
+				color: #fff;
+				top: 0px;
+				font-size: 20px;
+				text-align: center;
+			}
+
+			footer.main-footer span:hover
+			{
+				background-color: rgba(37, 37, 38, 1) !important;
+				cursor: pointer;
+			}
+
+			#btn_retroceder
+			{
+				left: 0px;
+			}
+
+			#btn_avancar
+			{
+				right: 0px;
+			}
+
+			.row.titulo h3 
+			{
+				margin: 0;
+				/*margin-top: 25px;*/
+				margin-bottom: 10px;
+				height: auto;
+			}
+
+			.obra 
+			{
+				margin-bottom: 25px;
+			}
+
+			.playerObra audio
+			{
+				width: 100%;
+				margin-top: 15px;
+			}
+        </style>
+	</head>
+	
+	<body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
+		<div class="wrapper">
+			<header class="main-header">
+				<a href="#null" class="logo" id="btn_voltar">
+					<span class="logo-mini"><b></b></span>
+					<span class="logo-lg"><b>VOLTAR</b></span>
+                </a>
+			</header>
+			
+			<div class="content-wrapper">
+				<section class="content">
+                    <audio id="player_audio"></audio>
+
+					<div class="row">
+						<div class="col-sm-12">
+							<h1>OS OBJETOS E SUAS NARRATIVAS</h1>
+						</div>
+					</div>
+					                   
+                    <div class="row" style="margin-bottom: 25px;">
+						<div class="col-sm-12">
+							<h2 id="lbl_titulo">AUDIODESCRIÇÃO</h2>
+						</div>
+                    </div>
+		  
+					<div class="row">
+                        <div class="col-sm-12">
+							<div id="lst_audios">
+								&nbsp;
+                            </div>                
+                        </div>
+					</div>
+				</section>
+			</div>
+			
+			<footer class="main-footer">
+				<span id="btn_retroceder">
+					<b>ÁREA ANTERIOR</b>
+				</span>
+				<span id="btn_avancar">
+					<b>PRÓXIMA ÁREA</b>
+				</span>
+			</footer>
+
+			<div class="control-sidebar-bg"></div>
+		</div>
+	</body>
+
+	<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="dist/js/app.min.js"></script>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="dist/js/areaAD.js"></script>
+
+	<script>
+		window.onload = function() { app.onDeviceReady(); };
+	</script>
+</html>

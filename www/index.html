@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Home - GUIA "OS OBJETOS E SUAS NARRATIVAS"</title>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+		<link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+	
+		<link rel="stylesheet" href="dist/css/style.css">
+		<link rel="icon" href="dist/img/logo.png">
+		
+		<style>
+			footer
+			{
+				text-align: center !important;
+				position: unset !important;
+			}
+
+			.obra 
+			{
+				margin-bottom: 25px;
+			}
+
+			.playerObra audio
+			{
+				width: 100%;
+				margin-bottom: 15px;
+			}
+		</style>
+	</head>
+	
+	<body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
+		<audio id="player_audio" style="display: none;"></audio>
+		<div class="wrapper">
+			<header class="main-header">
+				<a href="#null" class="logo" onclick="navigator.app.exitApp();">
+					<span class="logo-mini"><b></b></span>
+					<span class="logo-lg"><b>SAIR</b></span>
+				</a>
+			</header>
+
+			<div class="content-wrapper">
+				<section class="content">
+
+					<div class="row">
+						<div class="col-sm-12">
+							<h1>OS OBJETOS E SUAS NARRATIVAS</h1>
+						</div>
+					</div>
+
+					<br/>
+
+					<div class="row">
+						<div class="col-sm-12" id="btn_tutorialAD">
+							
+								<div class="info-box">
+									<span class="info-box-icon bg-green">
+										<i class="fa fa-book">
+										</i>
+									</span>
+									<div class="info-box-content">
+										<span class="info-box-text">
+											Tutorial de
+										</span>
+										<span class="info-box-number">
+											Audiodescrição
+										</span>
+									</div>
+								</div>
+						</div>
+					</div>
+		  
+					<div class="row">
+						<div class="col-sm-12" id="btn_AD">
+							
+								<div class="info-box">
+									<span class="info-box-icon bg-green fa-audiodescricao">
+										<i class="fa fa-audiodescricao">
+										</i>
+									</span>
+									<div class="info-box-content">
+										<span class="info-box-text">
+											Entrar na sessão
+										</span>
+										<span class="info-box-number">
+											Audiodescrição
+										</span>
+									</div>
+								</div>
+
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="sessaoLibras.html">
+								<div class="info-box">
+									<span class="info-box-icon bg-green fa-libras">
+										<i class="fa fa-libras">
+										</i>
+									</span>
+									<div class="info-box-content">
+										<span class="info-box-text">
+											Entrar na sessão
+										</span>
+										<span class="info-box-number">
+											LIBRAS
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+			</div>
+			
+			<a href="creditos.html">
+				<footer class="main-footer">
+					<strong>
+							CRÉDITOS DO APLICATIVO
+					</strong>
+				</footer>
+			</a>
+
+			<div class="control-sidebar-bg"></div>
+		</div>
+
+	</body>
+	
+	<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="dist/js/app.min.js"></script>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="dist/js/index.js"></script>
+
+	<script>
+		window.onload = function() { app.onDeviceReady(); };
+	</script>
+</html>
