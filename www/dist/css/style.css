@@ -1,0 +1,125 @@
+body
+{
+    font-family: "Century Gothic", sans-serif;
+    background-color: rgba(31, 40, 37, 1);
+}
+
+.logo, .main-header .navbar, .main-sidebar 
+{
+    background-color: rgba(28, 28, 28, 1) !important;
+}
+
+.main-header .navbar .sidebar-toggle:hover, .logo:hover, .sidebar-menu>li.header
+{
+    background-color: rgba(31, 40, 37, 1) !important;
+    color: white !important;
+}
+
+.wrapper, .content-wrapper, .info-box
+{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.info-box
+{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1) !important;
+}
+
+.info-box:hover
+{
+    background-color: rgba(28, 28, 28, 1) !important;
+}
+
+.info-box a
+{
+    color: white !important;
+}
+
+.info-box-content
+{
+    padding-top: 20px;
+}
+
+.main-header .sidebar-toggle
+{
+    padding: 15px 20px;
+}
+
+.sidebar-menu>li:hover>a, .sidebar-menu>li.active>a 
+{
+    color: #fff;
+    background: rgba(28, 28, 28, 1) !important;
+    border-left-color: #bf0303 !important;
+}
+
+.sidebar-menu>li>.treeview-menu 
+{
+    margin: 0 1px;
+    background-color: rgba(31, 40, 37, 1) !important;
+}
+
+.main-footer
+{
+    background: rgba(28, 28, 28, 1) !important;
+    border: none;
+}
+
+.info-box-icon.fa-libras
+{
+    background-image: url('../img/libras.png');
+    background-size: contain;
+}
+
+.info-box-icon.fa-audiodescricao
+{
+    background-image: url('../img/audiodescricao.png');
+    background-size: contain;
+}
+
+.main-sidebar, nav.navbar
+{
+    display: none;
+}
+
+a.logo
+{
+    width: 100% !important;
+}
+
+span.logo-lg
+{
+    display: block !important;
+}
+
+body.sidebar-mini.sidebar-collapse footer.main-footer
+{
+    position: fixed;
+    width: 100%;
+    margin-left: 0px !important;
+    bottom: 0px;
+    z-index: 9999;
+}
+
+body.sidebar-mini.sidebar-collapse div.content-wrapper
+{
+    margin-left: 0px !important;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-header
+{
+    position: fixed;
+    width: 100%;
+}
+
+h1, h2, h3.tituloSubArea
+{
+    color: rgba(255, 255, 221, 1) !important;
+}
+
+footer.main-footer
+{
+	color: white;
+}
