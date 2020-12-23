@@ -48,8 +48,8 @@
                             "audio": "02_espaco_sideral/2.3.1_foguete_carioca_na_lua.mp3"
                         },
                         {
-                            "nome": "2.3.2 - Apareio do Outro Mundo - Confusão do Espaço",
-                            "audio": "02_espaco_sideral/2.3.2_apareio_do_outro_mundo_confusao_do_espaco.mp3"
+                            "nome": "2.3.2 - Apareio do Outro Mundo - Confusão no Espaço",
+                            "audio": "02_espaco_sideral/2.3.2_apareio_do_outro_mundo_confusao_no_espaco.mp3"
                         },
                         {
                             "nome": "2.3.3 - Reunião na Lua",
@@ -295,64 +295,64 @@
                             "audio": "05_mamulengos/5.3.1_quiteria_mestre_solon.mp3"
                         },
                         {
-                            "nome": "5.3.2 - Satanás - Mestre Solon",
-                            "audio": "05_mamulengos/5.3.2_satanas_mestre_solon.mp3"
+                            "nome": "5.3.2 - Capitão Raimundo - Mestre Solon",
+                            "audio": "05_mamulengos/5.3.2_capitao_raimundo_mestre_solon.mp3"
                         },
                         {
                             "nome": "5.3.3 - Índio - Mestre Solon",
                             "audio": "05_mamulengos/5.3.3_indio_mestre_solon.mp3"
                         },
                         {
-                            "nome": "5.3.4 - Capitão Raimundo - Mestre Solon",
-                            "audio": "05_mamulengos/5.3.4_capitao_raimundo_mestre_solon.mp3"
+                            "nome": "5.3.4 - Satanás - Mestre Solon",
+                            "audio": "05_mamulengos/5.3.4_satanas_mestre_solon.mp3"
                         },
                         {
-                            "nome": "5.4 - Morte - Bila",
-                            "audio": "05_mamulengos/5.4_morte_bila.mp3"
+                            "nome": "5.4.1 - Cobra Chibana - Fuxico",
+                            "audio": "05_mamulengos/5.4.1_cobra_chibana_fuxico.mp3"
                         },
                         {
-                            "nome": "5.5.1 - A Moça das Duas Caras - Babau",
-                            "audio": "05_mamulengos/5.5.1_a_moca_das_duas_caras_babau.mp3"
+                            "nome": "5.4.2 - Figura Feminina - Fuxico",
+                            "audio": "05_mamulengos/5.4.2_figura_feminina_fuxico.mp3"
                         },
                         {
-                            "nome": "5.5.2 - A Morte - Babau",
-                            "audio": "05_mamulengos/5.5.2_a_morte_babau.mp3"
+                            "nome": "5.4.3 - Figura Masculina - Fuxico",
+                            "audio": "05_mamulengos/5.4.3_figura_masculina_fuxico.mp3"
                         },
                         {
-                            "nome": "5.5.3 - Dr. Franga de Galinha - Babau",
-                            "audio": "05_mamulengos/5.5.3_dr_franga_de_galinha_babau.mp3"
+                            "nome": "5.4.4 - Sargento Peinha - Fuxico",
+                            "audio": "05_mamulengos/5.4.4_sargento_peinha_fuxico.mp3"
                         },
                         {
-                            "nome": "5.5.4 - João Redondo de Albuquerque - Babau",
-                            "audio": "05_mamulengos/5.5.4_joao_redondo_de_albuquerque_babau.mp3"
+                            "nome": "5.4.5 - Soldado Campo Zero - Fuxico",
+                            "audio": "05_mamulengos/5.4.5_soldado_campo_zero_fuxico.mp3"
                         },
                         {
-                            "nome": "5.6 - Quitéria - Jacilene",
-                            "audio": "05_mamulengos/5.6_quiteria_jacilene.mp3"
+                            "nome": "5.5 - Morte - Bila",
+                            "audio": "05_mamulengos/5.5_morte_bila.mp3"
                         },
                         {
-                            "nome": "5.7 - Goiaba",
-                            "audio": "05_mamulengos/5.7_goiaba.mp3"
+                            "nome": "5.6.1 - A Moça das Duas Caras - Babau",
+                            "audio": "05_mamulengos/5.6.1_a_moca_das_duas_caras_babau.mp3"
                         },
                         {
-                            "nome": "5.8.1 - Cobra Chibana - Fuxico",
-                            "audio": "05_mamulengos/5.8.1_cobra_chibana_fuxico.mp3"
+                            "nome": "5.6.2 - A Morte - Babau",
+                            "audio": "05_mamulengos/5.6.2_a_morte_babau.mp3"
                         },
                         {
-                            "nome": "5.8.2 - Figura Feminina - Fuxico",
-                            "audio": "05_mamulengos/5.8.2_figura_feminina_fuxico.mp3"
+                            "nome": "5.6.3 - Dr. Franga de Galinha - Babau",
+                            "audio": "05_mamulengos/5.6.3_dr_franga_de_galinha_babau.mp3"
                         },
                         {
-                            "nome": "5.8.3 - Figura Masculina - Fuxico",
-                            "audio": "05_mamulengos/5.8.3_figura_masculina_fuxico.mp3"
+                            "nome": "5.6.4 - João Redondo de Albuquerque - Babau",
+                            "audio": "05_mamulengos/5.6.4_joao_redondo_de_albuquerque_babau.mp3"
                         },
                         {
-                            "nome": "5.8.4 - Sargento Peinha - Fuxico",
-                            "audio": "05_mamulengos/5.8.4_sargento_peinha_fuxico.mp3"
+                            "nome": "5.7 - Quitéria - Jacilene",
+                            "audio": "05_mamulengos/5.7_quiteria_jacilene.mp3"
                         },
                         {
-                            "nome": "5.8.5 - Soldado Campo Zero - Fuxico",
-                            "audio": "05_mamulengos/5.8.5_soldado_campo_zero_fuxico.mp3"
+                            "nome": "5.8 - Goiaba",
+                            "audio": "05_mamulengos/5.8_goiaba.mp3"
                         },
                         {
                             "nome": "5.9 - Miniatura de Torda",
@@ -705,8 +705,8 @@
                             "audio": "09_objetos_como_narrativas/9.2.25_premio_veado_tombado.mp3"
                         },
                         {
-                            "nome": "9.2.26 - Copo Médio, Chocolateira Grande e Copo Grande",
-                            "audio": "09_objetos_como_narrativas/9.2.26_copo_medio_chocolateira_grande_e_copo_grande.mp3"
+                            "nome": "9.2.26 - Copo Médio",
+                            "audio": "09_objetos_como_narrativas/9.2.26_copo_medio.mp3"
                         },
                         {
                             "nome": "9.2.27 - Caçador e Capivara",
