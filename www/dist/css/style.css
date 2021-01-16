@@ -77,6 +77,12 @@ body
     background-size: contain;
 }
 
+.info-box-icon.fa-tutorial-audiodescricao
+{
+    background-image: url('../img/books.png');
+    background-size: contain;
+}
+
 .main-sidebar, nav.navbar
 {
     display: none;

@@ -48,7 +48,12 @@ var app = {
 
 				elemento = document.createElement('audio');
 				elemento.controls = true;
-				elemento.src = 'dist/mp3/tutorialAD/btn_tutorialAD1.mp3';
+
+				source = document.createElement('source');
+				source.src = 'dist/mp3/tutorialAD/btn_tutorialAD1.mp3';
+				source.type = 'audio/mpeg';
+
+				elemento.insertAdjacentElement('beforeend', source);
 
 				playerObra.children[0].insertAdjacentElement('beforeend', elemento);
 
