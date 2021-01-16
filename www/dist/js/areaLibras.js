@@ -224,7 +224,12 @@ var app = {
 
                                                 elemento = document.createElement('audio');
                                                 elemento.controls = true;
-                                                elemento.src = 'dist/mp4/' + this.audio;
+
+                                                source = document.createElement('source');
+                                                source.src = 'dist/mp4/' + this.audio;
+                                                source.type = 'audio/mpeg';
+
+                                                elemento.insertAdjacentElement('beforeend', source);
 
                                                 playerObra.children[0].insertAdjacentElement('beforeend', elemento);
 
